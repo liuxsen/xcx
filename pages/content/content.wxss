@@ -1,0 +1,17 @@
+.content-item{
+	border-bottom: 1px solid #aaa;
+	background-color: #eee;
+	padding: 15px 5px;
+	margin: 12px 0;
+	font-size: 14px;
+	display: flex;
+	verticl
+}
+.avatar{
+	width: 30px;
+	height: 30px;
+}
+.list-title{
+	display: block;
+	margin-left: 12px;
+}

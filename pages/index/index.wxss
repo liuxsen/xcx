@@ -1,0 +1,77 @@
+.body{
+	font: 14px 微软雅黑;
+	padding-top: 30px;
+}
+
+.top-bar{
+	position: fixed;
+	left: 0;
+	top: 0;
+	color: rgb(100,255,100);
+	background-color: #333;
+	font: 12px/25px 微软雅黑;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	z-index: 1;
+}
+.top-bar-item{
+	width: 20%;
+	text-align: center;
+}
+.posts-item{
+	border-bottom: 1px solid rgb(100,255,100);
+	margin-bottom:12px;
+	padding: 0 10px;
+}
+.author{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.author-avatar{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.author-name{
+	margin: 0 5px;
+}
+.posts-title{
+	margin: 5px 0;
+}
+.posts-tag{
+	font-size: 12px;
+	padding: 0 2px;
+	margin: 0 2px;
+	border: 1px solid rgb(115,255,30);
+	border-radius: 5px;
+	color: rgb(115,255,30);
+}
+.posts-tag.hot{
+	border: 1px solid rgb(255,100,30);
+	color: rgb(255,100,30);
+}
+
+
+.bar-info{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+.bar-info-item-icon{
+	width: 20px;
+	height: 20px;
+	vertical-align: top;
+}
+
+.scroll-view{
+	height: 100%;
+}
