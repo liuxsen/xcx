@@ -1,0 +1,38 @@
+<view class="container">
+	<view class="position">
+		<image class="whether-icon" src="../resource/whether/{{code}}.png"/>
+		{{wlocation}}
+	</view>
+	<view class='updateTime'>
+		{{wtime}}分钟前更新
+	</view>
+	<view class="animate">
+		<image class="whether-banner" src="../resource/whether/{{code}}.png"/>
+	</view>
+	<view class="banner">
+		<view class="wendu">
+			{{temperature}}°
+		</view>
+		<view>
+			<image class="whether-icon" src="../resource/whether/{{code}}.png"/>
+			{{whether}}
+		</view>
+	</view>
+	<view  wx:key="weilai" wx:for="{{weilai}}"  wx:for-item="whether">
+		<view class="daily">
+			<view class="daily-item">
+				{{whether.date}}
+			</view>
+			<view class="daily-item">
+				{{whether.text_day}}
+				<image class="whether-icon" src="../resource/whether/{{code}}.png"/>
+			</view>
+			<view class="daily-item">
+				{{whether.low}}~{{whether.high}}
+			</view>
+			<view class="daily-item">
+				{{whether.wind_direction}}
+			</view>
+		</view>
+	</view>
+</view>

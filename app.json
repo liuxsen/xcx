@@ -1,9 +1,9 @@
 {
     "pages": [
         "pages/index/index",
-        "pages/logs/logs",
-        "pages/content/content",
-        "pages/detail/detail"
+        "pages/whether/whether",
+        "pages/detail/detail",
+        "pages/logs/logs"
     ],
     "window": {
         "backgroundTextStyle": "black",
@@ -20,8 +20,8 @@
             "iconPath": "images/index/index.png",
             "selectedIconPath": "images/index/my.png"
         }, {
-            "pagePath": "pages/content/content",
-            "text": "我的",
+            "pagePath": "pages/whether/whether",
+            "text": "天气",
             "iconPath": "images/index/index.png",
             "selectedIconPath": "images/index/my.png"
         }, {

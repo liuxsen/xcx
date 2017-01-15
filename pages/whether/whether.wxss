@@ -1,0 +1,60 @@
+/**index.wxss**/
+.container{
+	color: #fff;
+	background: #0db8d4;
+	font-size: 12px;
+	font-family: '微软雅黑';
+	padding: 20px 20px 0 20px;
+	height: 555px;
+}
+.position{
+	text-align: center;
+}
+.updateTime{
+	display: flex;
+	justify-content: flex-end;
+	font-size: 12px;
+}
+.wendu{
+	font-size: 90px;
+	margin: 30px 0;
+}
+.banner{
+	height: 200px;
+	text-align: center;
+	background: url() no-repeat center top/100px;
+	position: relative;
+	z-index: 2;
+}
+.whether-icon{
+	width: 20px;
+	vertical-align: middle;
+	height: 20px;
+}
+.animate{
+	width: 100%;
+	position: absolute;
+	animation: scroll 10s linear infinite;
+	z-index: 1;
+	text-align: center;
+	left: -100%;
+}
+.animate-banner{
+	width: 200px;
+}
+@keyframes scroll{
+	0%{
+		left: -100%;
+	}
+	100%{
+		left: 100%;
+	}
+}
+.daily{
+	display: flex;
+	justify-content:space-between;
+}
+.daily-item{
+	width: 25%;
+	text-align: center;
+}
